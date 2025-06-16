@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фільмова База</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Фільмова База</h1>
+    </header>
+
+    <main>
+        <section class="controls">
+            <input type="text" id="search-input" placeholder="Пошук фільмів за назвою...">
+            <div class="sort-buttons">
+                <button id="sort-name-asc">Сортувати за назвою (А-Я)</button>
+                <button id="sort-name-desc">Сортувати за назвою (Я-А)</button>
+                <button id="sort-rating-desc">Сортувати за рейтингом (від більшого)</button>
+                <button id="sort-rating-asc">Сортувати за рейтингом (від меншого)</button>
+            </div>
+        </section>
+
+        <section id="error-message" class="error-message"></section>
+
+        <section id="movies-container" class="movies-container">
+            </section>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
